@@ -1,0 +1,20 @@
+[project]
+name = "streamli-ui"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ahmad-Nadeem919", email = "an1469447@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "authlib>=1.5.1",
+    "streamlit>=1.42.2",
+]
+
+[project.scripts]
+streamli-ui = "streamli_ui:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
